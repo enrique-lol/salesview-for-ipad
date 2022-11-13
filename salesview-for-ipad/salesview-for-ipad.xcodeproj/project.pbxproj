@@ -13,6 +13,7 @@
 		3FE1EB6729218026003913A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1EB6629218026003913A5 /* Preview Assets.xcassets */; };
 		3FE1EB6929218026003913A5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1EB6829218026003913A5 /* Persistence.swift */; };
 		3FE1EB6C29218026003913A5 /* salesview_for_ipad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1EB6A29218026003913A5 /* salesview_for_ipad.xcdatamodeld */; };
+		3FE1EB75292181EE003913A5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1EB74292181EE003913A5 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3FE1EB6629218026003913A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FE1EB6829218026003913A5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3FE1EB6B29218026003913A5 /* salesview_for_ipad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = salesview_for_ipad.xcdatamodel; sourceTree = "<group>"; };
+		3FE1EB74292181EE003913A5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,10 @@
 		3FE1EB5E29218021003913A5 /* salesview-for-ipad */ = {
 			isa = PBXGroup;
 			children = (
-				3FE1EB5F29218021003913A5 /* salesview_for_ipadApp.swift */,
 				3FE1EB6129218021003913A5 /* ContentView.swift */,
+				3FE1EB73292181C2003913A5 /* Views */,
+				3FE1EB72292181B7003913A5 /* Models */,
+				3FE1EB5F29218021003913A5 /* salesview_for_ipadApp.swift */,
 				3FE1EB6329218026003913A5 /* Assets.xcassets */,
 				3FE1EB6829218026003913A5 /* Persistence.swift */,
 				3FE1EB6A29218026003913A5 /* salesview_for_ipad.xcdatamodeld */,
@@ -71,6 +75,21 @@
 				3FE1EB6629218026003913A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3FE1EB72292181B7003913A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FE1EB74292181EE003913A5 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3FE1EB73292181C2003913A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +164,7 @@
 			files = (
 				3FE1EB6929218026003913A5 /* Persistence.swift in Sources */,
 				3FE1EB6C29218026003913A5 /* salesview_for_ipad.xcdatamodeld in Sources */,
+				3FE1EB75292181EE003913A5 /* Product.swift in Sources */,
 				3FE1EB6229218021003913A5 /* ContentView.swift in Sources */,
 				3FE1EB6029218021003913A5 /* salesview_for_ipadApp.swift in Sources */,
 			);
