@@ -28,5 +28,8 @@ struct Product: Identifiable {
     
 }
 var ProductIndex = [
-    Product(source: "dtn", department: "Plumbing", styleCode: "a2", name: "A plummy", price: 123, salesCycle: "11/14/22")
+    // id: department, style, name, price, source, salescycle
+    
+    // Plu-a2aplumthi0123dtn1114
+    Product(source: "dtn", department: "Plumbing", styleCode: "a2", name: "A plummy thing", price: 123, salesCycle: "11/14/22")
 ]
