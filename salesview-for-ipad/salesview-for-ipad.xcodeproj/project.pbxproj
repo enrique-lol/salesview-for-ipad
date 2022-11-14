@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3A4D702921A7400023BD45 /* SalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4D6F2921A7400023BD45 /* SalesView.swift */; };
+		3F3A4D722921A7D10023BD45 /* ScanPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4D712921A7D10023BD45 /* ScanPreview.swift */; };
+		3F3A4D742921A82F0023BD45 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4D732921A82F0023BD45 /* ProductDetail.swift */; };
+		3F3A4D762921A8A50023BD45 /* OrderModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4D752921A8A50023BD45 /* OrderModal.swift */; };
+		3F3A4D792921A9670023BD45 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4D782921A9670023BD45 /* PrimaryButton.swift */; };
+		3F3A4D7D2921C2AB0023BD45 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4D7C2921C2AB0023BD45 /* ProductList.swift */; };
+		3F3A4D7F2921C2C80023BD45 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4D7E2921C2C80023BD45 /* ListItem.swift */; };
+		3F3A4D812921C33A0023BD45 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4D802921C33A0023BD45 /* SecondaryButton.swift */; };
+		3F3A4D832921C3DC0023BD45 /* SalesButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A4D822921C3DC0023BD45 /* SalesButtons.swift */; };
 		3FE1EB6029218021003913A5 /* salesview_for_ipadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1EB5F29218021003913A5 /* salesview_for_ipadApp.swift */; };
 		3FE1EB6229218021003913A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1EB6129218021003913A5 /* ContentView.swift */; };
 		3FE1EB6429218026003913A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1EB6329218026003913A5 /* Assets.xcassets */; };
@@ -18,6 +27,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F3A4D6F2921A7400023BD45 /* SalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesView.swift; sourceTree = "<group>"; };
+		3F3A4D712921A7D10023BD45 /* ScanPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanPreview.swift; sourceTree = "<group>"; };
+		3F3A4D732921A82F0023BD45 /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		3F3A4D752921A8A50023BD45 /* OrderModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModal.swift; sourceTree = "<group>"; };
+		3F3A4D782921A9670023BD45 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		3F3A4D7C2921C2AB0023BD45 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		3F3A4D7E2921C2C80023BD45 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		3F3A4D802921C33A0023BD45 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		3F3A4D822921C3DC0023BD45 /* SalesButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesButtons.swift; sourceTree = "<group>"; };
 		3FE1EB5C29218021003913A5 /* salesview-for-ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "salesview-for-ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE1EB5F29218021003913A5 /* salesview_for_ipadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = salesview_for_ipadApp.swift; sourceTree = "<group>"; };
 		3FE1EB6129218021003913A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +58,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F3A4D772921A9220023BD45 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3F3A4D782921A9670023BD45 /* PrimaryButton.swift */,
+				3F3A4D802921C33A0023BD45 /* SecondaryButton.swift */,
+				3F3A4D7E2921C2C80023BD45 /* ListItem.swift */,
+				3F3A4D822921C3DC0023BD45 /* SalesButtons.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		3FE1EB5329218021003913A5 = {
 			isa = PBXGroup;
 			children = (
@@ -59,10 +88,11 @@
 		3FE1EB5E29218021003913A5 /* salesview-for-ipad */ = {
 			isa = PBXGroup;
 			children = (
+				3FE1EB5F29218021003913A5 /* salesview_for_ipadApp.swift */,
 				3FE1EB6129218021003913A5 /* ContentView.swift */,
 				3FE1EB73292181C2003913A5 /* Views */,
 				3FE1EB72292181B7003913A5 /* Models */,
-				3FE1EB5F29218021003913A5 /* salesview_for_ipadApp.swift */,
+				3F3A4D772921A9220023BD45 /* Components */,
 				3FE1EB6329218026003913A5 /* Assets.xcassets */,
 				3FE1EB6829218026003913A5 /* Persistence.swift */,
 				3FE1EB6A29218026003913A5 /* salesview_for_ipad.xcdatamodeld */,
@@ -91,6 +121,11 @@
 		3FE1EB73292181C2003913A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3F3A4D6F2921A7400023BD45 /* SalesView.swift */,
+				3F3A4D712921A7D10023BD45 /* ScanPreview.swift */,
+				3F3A4D732921A82F0023BD45 /* ProductDetail.swift */,
+				3F3A4D752921A8A50023BD45 /* OrderModal.swift */,
+				3F3A4D7C2921C2AB0023BD45 /* ProductList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,11 +200,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3A4D702921A7400023BD45 /* SalesView.swift in Sources */,
+				3F3A4D832921C3DC0023BD45 /* SalesButtons.swift in Sources */,
+				3F3A4D792921A9670023BD45 /* PrimaryButton.swift in Sources */,
 				3FE1EB7729218E31003913A5 /* Order.swift in Sources */,
+				3F3A4D742921A82F0023BD45 /* ProductDetail.swift in Sources */,
 				3FE1EB6929218026003913A5 /* Persistence.swift in Sources */,
+				3F3A4D722921A7D10023BD45 /* ScanPreview.swift in Sources */,
 				3FE1EB6C29218026003913A5 /* salesview_for_ipad.xcdatamodeld in Sources */,
 				3FE1EB75292181EE003913A5 /* Product.swift in Sources */,
 				3FE1EB6229218021003913A5 /* ContentView.swift in Sources */,
+				3F3A4D7D2921C2AB0023BD45 /* ProductList.swift in Sources */,
+				3F3A4D812921C33A0023BD45 /* SecondaryButton.swift in Sources */,
+				3F3A4D7F2921C2C80023BD45 /* ListItem.swift in Sources */,
+				3F3A4D762921A8A50023BD45 /* OrderModal.swift in Sources */,
 				3FE1EB6029218021003913A5 /* salesview_for_ipadApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
